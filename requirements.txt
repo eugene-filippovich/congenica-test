@@ -1,0 +1,7 @@
+attrs
+browser
+dataclasses
+pytest
+selene==2.0.0a33
+selenium
+webdriver-manager==3.4.2
