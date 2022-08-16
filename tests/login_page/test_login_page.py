@@ -23,7 +23,7 @@ class TestLoginPageNegative:
     def test_login_negative(self, user_config, user_name, password):
         # base_page.select_login_tab() #commented due to selenium waits 10 minutes for page load
         login_page.input_login(user_name, password)
-        if user_name == '':
+        if not user_name:
             assert login_page.check_submit_button_disabled(), 'Submit button is enabled'
         if user_name:
             assert login_page.check_submit_button_enabled(), 'Submit button is disabled'
