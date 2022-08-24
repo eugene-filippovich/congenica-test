@@ -24,11 +24,3 @@ class TestTaskOne:
         frames_elements.switch_to_parents_frame()
         frames_elements.switch_to_frame(NestedFramesElements.frame_right)
         print(frames_elements.print_frame_text('RIGHT'))
-
-
-
-
-
-
-
-

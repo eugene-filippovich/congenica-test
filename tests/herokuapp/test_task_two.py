@@ -12,10 +12,3 @@ class TestTaskTwo:
         dynamic_load_elements.click_start_button()
         dynamic_load_elements.wait_loading_complete()
         print(dynamic_load_elements.print_console_text())
-
-
-
-
-
-
-
